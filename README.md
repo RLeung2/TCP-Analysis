@@ -11,6 +11,7 @@ The code checks the flag of each packet to see if it’s a SYN. If so, add 1 to 
 analyze that flow.
 
 In each flow:
+
 The sequence number of the SYN is used to find the relative sequence numbers of future sent
 packets by subtraction.
 
